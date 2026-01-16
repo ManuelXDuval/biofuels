@@ -54,7 +54,7 @@ ggplot(eia_diesel_us.df, aes(x = period, y = value, group = 1)) +
   labs(
     title = "Diesel Consumption Over Time in the US",
     x = "Year",
-    y = "Million Barrels (MBBL)",
+    y = "Thousand Barrels (MBBL)",
     caption = "Source: U.S. Energy Information Administration (EIA), https://www.eia.gov/")
 
 ```
