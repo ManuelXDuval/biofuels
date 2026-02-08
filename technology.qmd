@@ -1,0 +1,40 @@
+---
+title: "Biomass-based Diesel: The Technology"
+format: html
+---
+
+## Understanding the Conversion Process
+
+Biomass-based diesel (biodiesel) is a renewable, biodegradable fuel manufactured from vegetable oils, animal fats, or recycled restaurant grease. The transition from raw organic feedstock to high-quality fuel involves a precise chemical process known as **Transesterification**.
+
+### The Chemistry: Transesterification
+
+The primary components of biomass oils are **Triglycerides**. During the transesterification reaction, these triglycerides are reacted with an alcohol (typically methanol) in the presence of a catalyst.
+
+
+
+**The Reaction Formula:**
+$$\text{Triglyceride} + 3 \text{CH}_3\text{OH} \xrightarrow{\text{Catalyst}} \text{Glycerol} + 3 \text{FAME (Biodiesel)}$$
+
+1.  **Reactants:** Triglycerides + Methanol (3:1 molar ratio).
+2.  **Catalyst:** Usually Sodium Hydroxide (NaOH) or Potassium Hydroxide (KOH).
+3.  **Outputs:** **Fatty Acid Methyl Esters (FAME)**, which is the chemical name for biodiesel, and **Glycerol**, a valuable byproduct used in the pharmaceutical and cosmetic industries.
+
+---
+
+### Production Workflow
+
+The diagram below illustrates the industrial pipeline from raw feedstock to the final ASTM-standard fuel.
+
+```{mermaid}
+graph LR
+    A[Feedstock: Oils/Fats] --> B{Transesterification}
+    C[Methanol + Catalyst] --> B
+    B --> D[Crude Biodiesel]
+    B --> E[Glycerol By-product]
+    D --> F[Washing & Drying]
+    F --> G[ASTM Standard Biodiesel]
+    
+    style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style G fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style E fill:#fff9c4,stroke:#fbc02d,stroke-width:1px

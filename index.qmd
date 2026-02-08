@@ -6,10 +6,11 @@ title: "biofuels"
 
 # Plant-based source of energy: energy crops
 
--   Three types of bio fuels:
+-   Three main types of bio fuels:
     -   ethanol;
-    -   alkanes (SAF and biomass based diesel, which include biodiesel and renewable diesel);
     -   renewable natural gas (RNG aka biomethane);
+    -   alkanes (Sustainable Aviation Fuel (SAF) and biomass based diesels, which include Biodiesel and Renewable Diesel);
   
 ![Biofuels Cycle](assets/BioFuelsCycle.png)
+**The content of this site is currently focusing on the alkanes type, specifically FAME Biodiesel and	Renewable Diesel (RD)**
 

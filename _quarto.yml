@@ -10,6 +10,7 @@ website:
         text: Home
       - dataSource.qmd
       - USDieselUsage.qmd  
+      - technology.qmd
       - about.qmd
 
 format:

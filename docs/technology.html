@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>biofuels</title>
+<title>Biomass-based Diesel: The Technology – biofuels</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -89,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -101,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Tracking Diesel Fuel Consumption in the U.S.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./technology.html"> 
+    <a class="nav-link active" href="./technology.html" aria-current="page"> 
 <span class="menu-text">Biomass-based Diesel: The Technology</span></a>
   </li>  
   <li class="nav-item">
@@ -124,7 +153,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#plant-based-source-of-energy-energy-crops" id="toc-plant-based-source-of-energy-energy-crops" class="nav-link active" data-scroll-target="#plant-based-source-of-energy-energy-crops">Plant-based source of energy: energy crops</a></li>
+  <li><a href="#understanding-the-conversion-process" id="toc-understanding-the-conversion-process" class="nav-link active" data-scroll-target="#understanding-the-conversion-process">Understanding the Conversion Process</a>
+  <ul class="collapse">
+  <li><a href="#the-chemistry-transesterification" id="toc-the-chemistry-transesterification" class="nav-link" data-scroll-target="#the-chemistry-transesterification">The Chemistry: Transesterification</a></li>
+  <li><a href="#production-workflow" id="toc-production-workflow" class="nav-link" data-scroll-target="#production-workflow">Production Workflow</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">biofuels</h1>
+<h1 class="title">Biomass-based Diesel: The Technology</h1>
 </div>
 
 
@@ -150,20 +183,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><b>Research and analysis of biomass-based diesel as potential cost-effective energy sources.</b></p>
-<section id="plant-based-source-of-energy-energy-crops" class="level1">
-<h1>Plant-based source of energy: energy crops</h1>
-<ul>
-<li>Three main types of bio fuels:
-<ul>
-<li>ethanol;</li>
-<li>renewable natural gas (RNG aka biomethane);</li>
-<li>alkanes (Sustainable Aviation Fuel (SAF) and biomass based diesels, which include Biodiesel and Renewable Diesel);</li>
-</ul></li>
-</ul>
-<p><img src="assets/BioFuelsCycle.png" class="img-fluid" alt="Biofuels Cycle"> <strong>The content of this site is currently focusing on the alkanes type, specifically FAME Biodiesel and Renewable Diesel (RD)</strong></p>
+<section id="understanding-the-conversion-process" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-conversion-process">Understanding the Conversion Process</h2>
+<p>Biomass-based diesel (biodiesel) is a renewable, biodegradable fuel manufactured from vegetable oils, animal fats, or recycled restaurant grease. The transition from raw organic feedstock to high-quality fuel involves a precise chemical process known as <strong>Transesterification</strong>.</p>
+<section id="the-chemistry-transesterification" class="level3">
+<h3 class="anchored" data-anchor-id="the-chemistry-transesterification">The Chemistry: Transesterification</h3>
+<p>The primary components of biomass oils are <strong>Triglycerides</strong>. During the transesterification reaction, these triglycerides are reacted with an alcohol (typically methanol) in the presence of a catalyst.</p>
+<p><strong>The Reaction Formula:</strong> <span class="math display">\[\text{Triglyceride} + 3 \text{CH}_3\text{OH} \xrightarrow{\text{Catalyst}} \text{Glycerol} + 3 \text{FAME (Biodiesel)}\]</span></p>
+<ol type="1">
+<li><strong>Reactants:</strong> Triglycerides + Methanol (3:1 molar ratio).</li>
+<li><strong>Catalyst:</strong> Usually Sodium Hydroxide (NaOH) or Potassium Hydroxide (KOH).</li>
+<li><strong>Outputs:</strong> <strong>Fatty Acid Methyl Esters (FAME)</strong>, which is the chemical name for biodiesel, and <strong>Glycerol</strong>, a valuable byproduct used in the pharmaceutical and cosmetic industries.</li>
+</ol>
+<hr>
+</section>
+<section id="production-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="production-workflow">Production Workflow</h3>
+<p>The diagram below illustrates the industrial pipeline from raw feedstock to the final ASTM-standard fuel.</p>
+<p>graph LR A[Feedstock: Oils/Fats] –&gt; B{Transesterification} C[Methanol + Catalyst] –&gt; B B –&gt; D[Crude Biodiesel] B –&gt; E[Glycerol By-product] D –&gt; F[Washing &amp; Drying] F –&gt; G[ASTM Standard Biodiesel]</p>
+<pre><code>style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+style G fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+style E fill:#fff9c4,stroke:#fbc02d,stroke-width:1px</code></pre>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
