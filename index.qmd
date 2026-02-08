@@ -8,7 +8,7 @@ title: "biofuels"
 
 -   Three types of bio fuels:
     -   ethanol;
-    -   alkanes (SAF and biomass based diesel, which includes biodiesel and renewable diesel);
+    -   alkanes (SAF and biomass based diesel, which include biodiesel and renewable diesel);
     -   renewable natural gas (RNG aka biomethane);
   
 ![Biofuels Cycle](assets/BioFuelsCycle.png)
