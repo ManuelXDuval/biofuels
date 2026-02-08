@@ -2,7 +2,7 @@
 title: "biofuels"
 ---
 
-<b>Research and analysis of biofuels as potential cost-effective energy sources.</b>
+<b>Research and analysis of biomass-based diesel as potential cost-effective energy sources.</b>
 
 # Plant-based source of energy: energy crops
 
