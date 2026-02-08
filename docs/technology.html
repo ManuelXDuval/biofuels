@@ -66,6 +66,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -200,10 +203,28 @@ window.Quarto = {
 <section id="production-workflow" class="level3">
 <h3 class="anchored" data-anchor-id="production-workflow">Production Workflow</h3>
 <p>The diagram below illustrates the industrial pipeline from raw feedstock to the final ASTM-standard fuel.</p>
-<p>graph LR A[Feedstock: Oils/Fats] –&gt; B{Transesterification} C[Methanol + Catalyst] –&gt; B B –&gt; D[Crude Biodiesel] B –&gt; E[Glycerol By-product] D –&gt; F[Washing &amp; Drying] F –&gt; G[ASTM Standard Biodiesel]</p>
-<pre><code>style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-style G fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-style E fill:#fff9c4,stroke:#fbc02d,stroke-width:1px</code></pre>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A[Feedstock: Oils/Fats] --&gt; B{Transesterification}
+    C[Methanol + Catalyst] --&gt; B
+    B --&gt; D[Crude Biodiesel]
+    B --&gt; E[Glycerol By-product]
+    D --&gt; F[Washing &amp; Drying]
+    F --&gt; G[ASTM Standard Biodiesel]
+    
+    style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style G fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style E fill:#fff9c4,stroke:#fbc02d,stroke-width:1px
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>

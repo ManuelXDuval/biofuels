@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -162,6 +191,9 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 <p><img src="assets/BioFuelsCycle.png" class="img-fluid" alt="Biofuels Cycle"> <strong>The content of this site is currently focusing on the alkanes type, specifically FAME Biodiesel and Renewable Diesel (RD)</strong></p>
+<ul>
+<li>Unlike petroleum diesel, biomass-based diesel significantly reduces lifecycle greenhouse gas emissions. Because the plants used for feedstock (like soybeans or canola (aka Rapeseed)) absorb <span class="math inline">\(CO_2\)</span> as they grow, the cycle is much closer to carbon neutrality than fossil-fuel-based alternatives.</li>
+</ul>
 
 
 </section>
