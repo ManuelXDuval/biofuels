@@ -11,6 +11,7 @@ website:
       - dataSource.qmd
       - USDieselUsage.qmd  
       - technology.qmd
+      - forecast.qmd  
       - about.qmd
 
 format:

@@ -1,0 +1,20 @@
+---
+title: "Biomass-based Diesel: the prospect"
+format: html
+---
+
+- In 2026, the U.S. consumes roughly 3.7 to 3.8 million barrels of diesel per day. To replace this with renewable diesel (RD), here is how one can structure en estimation.
+
+1. The Consumption Target
+  - Converting the daily barrels into an annual volume in gallons:  
+      + Daily: $3.75 \text{ million b/d}$  
+      + Annual: $\approx 57.5 \text{ billion gallons per year}$  
+  
+2. The Biomass Feedstock sources:  
+ - Renewable diesel is made via hydrotreating, which requires specific fats and oils (lipids) or, in advanced scenarios, "lignocellulosic" biomass (wood/stalks) via pyrolysis.  
+ 
+ A. Lipids (Soybean Oil, Corn Oil, Tallow)
+  - This is the current industry standard. The conversion is highly efficient because the feedstock is already an oil.
+
+    + Yield: It takes roughly 7.5 to 8.0 lbs of oil to produce 1 gallon of renewable diesel. 
+    + To replace all U.S. diesel, roughly 450 billion lbs of fats/oils would be needed.  
