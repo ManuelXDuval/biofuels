@@ -3,18 +3,30 @@ title: "Biomass-based Diesel: the prospect"
 format: html
 ---
 
-- In 2026, the U.S. consumes roughly 3.7 to 3.8 million barrels of diesel per day. To replace this with renewable diesel (RD), here is how one can structure en estimation.
+**In 2026, the U.S. consumes roughly 3.7 to 3.8 million barrels of diesel per day.**    
+To supply this demand with renewable diesel (RD), the estimations are as follow:  
 
 1. The Consumption Target
   - Converting the daily barrels into an annual volume in gallons:  
       + Daily: $3.75 \text{ million b/d}$  
       + Annual: $\approx 57.5 \text{ billion gallons per year}$  
   
-2. The Biomass Feedstock sources:  
- - Renewable diesel is made via hydrotreating, which requires specific fats and oils (lipids) or, in advanced scenarios, "lignocellulosic" biomass (wood/stalks) via pyrolysis.  
+2. The Biomass Feedstock:  
+Renewable diesel is made via hydrotreating, which requires specific fats and oils (lipids) or, in advanced scenarios, "lignocellulosic" biomass (wood/stalks) via pyrolysis.  
  
- A. Lipids (Soybean Oil, Corn Oil, Tallow)
+ **A. Lipids (Soybean Oil, Corn Oil, Tallow)**  
   - This is the current industry standard. The conversion is highly efficient because the feedstock is already an oil.
 
-    + Yield: It takes roughly 7.5 to 8.0 lbs of oil to produce 1 gallon of renewable diesel. 
-    + To replace all U.S. diesel, roughly 450 billion lbs of fats/oils would be needed.  
+    + Yield: It takes roughly 7.5 to 8.0 lbs of oil to produce 1 gallon of renewable diesel.  
+    + To replace all U.S. diesel, roughly 450 billion lbs of fats/oils would be needed.    
+    + The current entire U.S. soybean crop currently produces about 26 billion lbs of oil: 17 times the entire U.S. soybean production would be needed to completely replace petroleum-based diesel production.     
+  
+  **B. Cellulosic Biomass (Wood Chips, Corn Stover)**    
+  - Involves heating wood or stalks to create "bio-crude" (pyrolysis) and then refining it. This is not yet done at a national scale.  
+     + Yield: Roughly 100 gallons of fuel per dry ton of biomass.  
+     + To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed.
+     + The USDA "Billion-Ton Report" suggests the U.S. could sustainably harvest about 1 billion tons of biomass annually. Replacing diesel would consume more than half of this total bio-potential.    
+       
+3. Summary Estimation Table
+  + To replace 100% of petroleum diesel (57.5 Billion Gallons):     
+     

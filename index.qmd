@@ -10,8 +10,7 @@ title: "biofuels"
     -   ethanol;
     -   renewable natural gas (RNG aka biomethane);
     -   alkanes (Sustainable Aviation Fuel (SAF) and biomass based diesels, which include Biodiesel and Renewable Diesel);
-  
-![Biofuels Cycle](assets/BioFuelsCycle.png)
-**The content of this site is currently focusing on the alkanes type, specifically FAME Biodiesel and	Renewable Diesel (RD)**
 
- - Unlike petroleum diesel, biomass-based diesel significantly reduces lifecycle greenhouse gas emissions. Because the plants used for feedstock (like soybeans or canola (aka Rapeseed)) absorb $CO_2$ as they grow, the cycle is much closer to carbon neutrality than fossil-fuel-based alternatives.
+![Biofuels Cycle](assets/BioFuelsCycle.png) **This resource is currently focusing on the alkanes type, specifically FAME Biodiesel and Renewable Diesel (RD)**
+
+-   Unlike petroleum diesel, biomass-based diesel significantly reduces lifecycle greenhouse gas emissions. Because the plants used for feedstock (like soybeans or canola (aka Rapeseed)) absorb $CO_2$ as they grow, the cycle is much closer to carbon neutrality than fossil-fuel-based alternatives.
