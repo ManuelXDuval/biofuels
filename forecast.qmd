@@ -14,14 +14,13 @@ To supply this demand with renewable diesel (RD), the estimations are as follow:
 2. The Biomass Feedstock:  
 Renewable diesel is made via hydrotreating, which requires specific fats and oils (lipids) or, in advanced scenarios, "lignocellulosic" biomass (wood/stalks) via pyrolysis.  
  
- **A. Lipids (Soybean Oil, Corn Oil, Tallow)**  
-  - This is the current industry standard. The conversion is highly efficient because the feedstock is already an oil.
-
+**A. Lipids (Soybean Oil, Corn Oil, Tallow)**  
+  - This is the current industry standard. The conversion is highly efficient because the feedstock is already an oil.  
     + Yield: It takes roughly 7.5 to 8.0 lbs of oil to produce 1 gallon of renewable diesel.  
-    + To replace all U.S. diesel, roughly 450 billion lbs of fats/oils would be needed.    
-    + The current entire U.S. soybean crop currently produces about 26 billion lbs of oil: 17 times the entire U.S. soybean production would be needed to completely replace petroleum-based diesel production.     
+    + To replace all U.S. diesel, roughly 450 billion lbs of fats/oils would be needed.     
+    + The current entire U.S. soybean crop currently produces about 26 billion lbs of oil: 17 times the entire U.S. soybean production would be needed to completely replace petroleum-based diesel production.      
   
-  **B. Cellulosic Biomass (Wood Chips, Corn Stover)**    
+**B. Cellulosic Biomass (Wood Chips, Corn Stover)**    
   - Involves heating wood or stalks to create "bio-crude" (pyrolysis) and then refining it. This is not yet done at a national scale.  
      + Yield: Roughly 100 gallons of fuel per dry ton of biomass.  
      + To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed.
