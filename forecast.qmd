@@ -35,3 +35,11 @@ BiomassForRenewableDiesel.df <- read.csv("assets/BiomassForRenewableDieselBiomas
 DT::datatable(BiomassForRenewableDiesel.df, caption = "Biomass requirement to replace 100% of petroleum diesel", rownames = F)
 ```
      
+Additional constraint: the hydrogen requirement.  Hydrotreating requires massive amounts of hydrogen ($H_2$). 
+  
+  + The lipid gap: to replace 100% of diesel with soybean oil, roughly 17 to 20 times the entire current U.S. soybean oil output is needed. This highlights why "second-generation" feedstocks like cover crops (Camelina, Winter canola and CoverCress) as well as algae represent valid alternatives.  
+
+  + The cellulosic capacity: If using woody biomass or agricultural residue (like corn stover), replacing all diesel would require roughly 1.36 billion dry tons of biomass. This actually exceeds the total estimated "sustainable" biomass potential of the entire United States (~1 billion tons).  
+  
+![oil seeeds](assets/oilseeds.jpeg)
+
