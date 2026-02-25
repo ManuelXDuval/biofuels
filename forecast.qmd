@@ -23,9 +23,15 @@ Renewable diesel is made via hydrotreating, which requires specific fats and oil
 **B. Cellulosic Biomass (Wood Chips, Corn Stover)**    
   - Involves heating wood or stalks to create "bio-crude" (pyrolysis) and then refining it. This is not yet done at a national scale.  
      + Yield: Roughly 100 gallons of fuel per dry ton of biomass.  
-     + To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed.
+     + To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed.  
      + The USDA "Billion-Ton Report" suggests the U.S. could sustainably harvest about 1 billion tons of biomass annually. Replacing diesel would consume more than half of this total bio-potential.    
        
 3. Summary Estimation Table
   + To replace 100% of petroleum diesel (57.5 Billion Gallons):     
+```{r pred, echo = T, message = FALSE, warning=FALSE, results='asis', fig.width= 12}     
+BiomassForRenewableDiesel.df <- read.csv("assets/BiomassForRenewableDieselBiomassForRenewableDiesel.csv")
+
+
+DT::datatable(BiomassForRenewableDiesel.df, caption = "Biomass requirement to replace 100% of petroleum diesel", rownames = F)
+```
      

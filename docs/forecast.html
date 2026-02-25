@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -66,6 +100,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -202,13 +246,23 @@ Renewable diesel is made via hydrotreating, which requires specific fats and oil
 <p><strong>B. Cellulosic Biomass (Wood Chips, Corn Stover)</strong><br>
 - Involves heating wood or stalks to create “bio-crude” (pyrolysis) and then refining it. This is not yet done at a national scale.<br>
 + Yield: Roughly 100 gallons of fuel per dry ton of biomass.<br>
-+ To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed. + The USDA “Billion-Ton Report” suggests the U.S. could sustainably harvest about 1 billion tons of biomass annually. Replacing diesel would consume more than half of this total bio-potential.</p>
++ To replace all U.S. diesel: 575 million dry tons of biomass per year would be needed.<br>
++ The USDA “Billion-Ton Report” suggests the U.S. could sustainably harvest about 1 billion tons of biomass annually. Replacing diesel would consume more than half of this total bio-potential.</p>
 <ol start="3" type="1">
 <li>Summary Estimation Table</li>
 </ol>
 <ul>
 <li>To replace 100% of petroleum diesel (57.5 Billion Gallons):</li>
 </ul>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>BiomassForRenewableDiesel.df <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"assets/BiomassForRenewableDieselBiomassForRenewableDiesel.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>DT<span class="sc">::</span><span class="fu">datatable</span>(BiomassForRenewableDiesel.df, <span class="at">caption =</span> <span class="st">"Biomass requirement to replace 100% of petroleum diesel"</span>, <span class="at">rownames =</span> F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ee4a0be69df275b13743" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ee4a0be69df275b13743">{"x":{"filter":"none","vertical":false,"caption":"<caption>Biomass requirement to replace 100% of petroleum diesel<\/caption>","data":[["Soybean Oil","Yellow Grease (UCO)","Woody Biomass"],["7.7 lbs / gal","8.0 lbs / gal","100 gal / ton"],["442 Billion lbs","460 Billion lbs","575 Million Tons"],["~17x current US Soy Oil output","~20x total US waste grease supply","~60% of total US bio-potential"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Feedstock.Type<\/th>\n      <th>Conversion.Yield<\/th>\n      <th>Total.Biomass.Needed<\/th>\n      <th>Land.Resource.Context<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"name":"Feedstock.Type","targets":0},{"name":"Conversion.Yield","targets":1},{"name":"Total.Biomass.Needed","targets":2},{"name":"Land.Resource.Context","targets":3}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 
 
