@@ -41,5 +41,5 @@ Additional constraint: the hydrogen requirement.  Hydrotreating requires massive
 
   + The cellulosic capacity: If using woody biomass or agricultural residue (like corn stover), replacing all diesel would require roughly 1.36 billion dry tons of biomass. This actually exceeds the total estimated "sustainable" biomass potential of the entire United States (~1 billion tons).  
   
-![oil seeeds](assets/oilseeds.jpeg)
+![oil seeeds](assets/oilseeds.jpeg){width=300px height=200px}
 
