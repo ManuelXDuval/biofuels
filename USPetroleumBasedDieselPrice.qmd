@@ -9,9 +9,9 @@ devnull <- sapply(c("httr2", "jsonlite", "tidyverse"), library, character.only =
 api_key <- Sys.getenv("API_KEY")
 ```
 
-## EIA API roots' endpoints
+## Sourcing Petroleum Based Diesel Fuel Price in the U.S from the EIA resource.  
 
-```{r PetrodDieselUSPrice, echo = T, message = FALSE, warning=FALSE, results='asis', fig.width= 14}
+```{r PetrodDieselUSPrice, echo = T, message = FALSE, warning=FALSE, results='asis', fig.width= 14, fig.height= 8}
 eia_url <- "https://api.eia.gov/v2/"
 
 
