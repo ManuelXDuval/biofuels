@@ -12,6 +12,7 @@ website:
       - USDieselUsage.qmd  
       - technology.qmd
       - forecast.qmd  
+      - USPetroleumBasedDieselPrice.qmd
       - about.qmd
 
 format:
