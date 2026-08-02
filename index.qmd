@@ -2,16 +2,17 @@
 title: "biofuels"
 ---
 
-<b>Research and analysis of biomass-based diesel (BBD) as potential cost-effective energy sources in the near future.</b>
+<b>Research and analysis of biomass-based fuels as potential cost-effective energy resources.</b>
 
 # Plant-based source of energy: energy crops
 
--   Three main types of bio fuels:
-    -   ethanol;
-    -   renewable natural gas (RNG aka biomethane);
-    -   alkanes (Sustainable Aviation Fuel (SAF) and biomass-based diesels, which include Biodiesel and Renewable Diesel);
+-   Four main types of biomass-derived liquid and gas fuels:
+    -   Ethanol;
+    -   Alkanes / Paraffins (SAF, Renewable Diesel, Renewable Gasoline);  
+    -   Renewable Natural Gas - RNG (Biomethane);  
+    -   FAME - Fatty Acid Methyl Esters (Biodiesel);  
 
-![Biofuels Cycle](assets/BioFuelsCycle.png)   
-**This resource is currently focusing on the alkanes type, specifically Fatty Acid Methyl Ester Biodiesel (FAME) and Renewable Diesel (RD)**
+![EnergyCrops](assets/EnergyCropsProductionToMarket.png)   
+**This Website is focusing on the Alkanes / Paraffins and FAME types.  Both use the same feedstocks (particularly plant oils: e.g. Camelina, soybean, canola, palm, and sunflower oil.**
 
--   Unlike petroleum diesel, biomass-based diesel significantly reduces lifecycle greenhouse gas emissions. Because the plants used for feedstock (like soybeans or canola (aka Rapeseed)) absorb $CO_2$ as they grow, the cycle is much closer to carbon neutrality than fossil-fuel-based alternatives.
+-  Biomass-based alkanes and FAME remain more expensive to produce than their petroleum counterparts. However, they offer drop-in alternatives that allow for greater energy source diversification.  

@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -187,21 +158,24 @@ window.Quarto = {
 </header>
 
 
-<p><b>Research and analysis of biomass-based diesel (BBD) as potential cost-effective energy sources in the near future.</b></p>
+<p><b>Research and analysis of biomass-based fuels as potential cost-effective energy resources.</b></p>
 <section id="plant-based-source-of-energy-energy-crops" class="level1">
 <h1>Plant-based source of energy: energy crops</h1>
 <ul>
-<li>Three main types of bio fuels:
+<li>Four main types of biomass-derived liquid and gas fuels:
 <ul>
-<li>ethanol;</li>
-<li>renewable natural gas (RNG aka biomethane);</li>
-<li>alkanes (Sustainable Aviation Fuel (SAF) and biomass-based diesels, which include Biodiesel and Renewable Diesel);</li>
+<li>Ethanol;</li>
+<li>Alkanes / Paraffins (SAF, Renewable Diesel, Renewable Gasoline);<br>
+</li>
+<li>Renewable Natural Gas - RNG (Biomethane);<br>
+</li>
+<li>FAME - Fatty Acid Methyl Esters (Biodiesel);</li>
 </ul></li>
 </ul>
-<p><img src="assets/BioFuelsCycle.png" class="img-fluid" alt="Biofuels Cycle"><br>
-<strong>This resource is currently focusing on the alkanes type, specifically Fatty Acid Methyl Ester Biodiesel (FAME) and Renewable Diesel (RD)</strong></p>
+<p><img src="assets/EnergyCropsProductionToMarket.png" class="img-fluid" alt="EnergyCrops"><br>
+<strong>This Website is focusing on the Alkanes / Paraffins and FAME types. Both use the same feedstocks (particularly plant oils: e.g.&nbsp;Camelina, soybean, canola, palm, and sunflower oil.</strong></p>
 <ul>
-<li>Unlike petroleum diesel, biomass-based diesel significantly reduces lifecycle greenhouse gas emissions. Because the plants used for feedstock (like soybeans or canola (aka Rapeseed)) absorb <span class="math inline">\(CO_2\)</span> as they grow, the cycle is much closer to carbon neutrality than fossil-fuel-based alternatives.</li>
+<li>Biomass-based alkanes and FAME remain more expensive to produce than their petroleum counterparts. However, they offer drop-in alternatives that allow for greater energy source diversification.</li>
 </ul>
 
 
