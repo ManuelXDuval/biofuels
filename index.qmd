@@ -7,10 +7,18 @@ title: "biofuels"
 # Plant-based source of energy: energy crops
 
 -   Four main types of biomass-derived liquid and gas fuels:
-    -   Ethanol;
-    -   Alkanes / Paraffins (SAF, Renewable Diesel, Renewable Gasoline);  
-    -   Renewable Natural Gas - RNG (Biomethane);  
+    -   Ethanol
+      + produced primarily through the fermentation of cellulosic biomass (agricultural residues, grasses).  
+      + Primary Use: Blended into automotive gasoline (e.g., E10, E85) to boost octane ratings and reduce tailpipe emissions in spark-ignition engines.  
+    -   Alkanes / Paraffins (SAF, Renewable Diesel, Renewable Gasoline)
+      + straight-chain and branched hydrocarbon chains produced primarily via the HEFA (Hydroprocessed Esters and Fatty Acids) pathway.  
+      + Primary Use: Drop-in fuels for aviation (SAF), heavy-duty trucking/maritime (renewable diesel), and standard combustion-engine cars (renewable gasoline).
+    -   Renewable Natural Gas - RNG (Biomethane)
+      + produced via the anaerobic digestion of organic waste (landfills, livestock manure, wastewater treatment plants) or the gasification of solid biomass.
+      + Primary Use: Injected into natural gas pipelines, used for high-heat industrial processes, or compressed/liquefied to fuel natural gas vehicles (CNG/LNG).
     -   FAME - Fatty Acid Methyl Esters (Biodiesel);  
+      + Complex ester molecules produced via transesterification, where plant oils or animal fats are reacted with an alcohol (usually methanol) in the presence of a catalyst.
+      + Primary Use: Blended into standard petroleum diesel (e.g., B5, B20) for conventional diesel engines, though it has different cold-flow and solvent properties compared to pure alkane diesel.
 
 ![EnergyCrops](assets/EnergyCropsProductionToMarket.png)   
 **This Website is focusing on the Alkanes / Paraffins and FAME types.  Both use the same feedstocks (particularly plant oils: e.g. Camelina, soybean, canola, palm, and sunflower oil.**
